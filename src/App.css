@@ -70,10 +70,23 @@ body {
   transform: scale(1.1);
 }
 
+/* Media queries para telas menores */
 @media (max-width: 768px) {
   .about-container {
     flex-direction: column;
     text-align: center;
+  }
+
+  .about-image {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
+  .about-image img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    margin: 0 auto;
   }
 
   .about-text {
@@ -87,11 +100,6 @@ body {
 
   .about-text p {
     font-size: 16px;
-  }
-
-  .about-image img {
-    max-width: 250px;
-    margin-top: 20px;
   }
 
   .icons {
@@ -113,6 +121,7 @@ body {
   }
 
   .about-image img {
-    max-width: 200px;
+    max-width: 150px;
+    height: 150px;
   }
 }
