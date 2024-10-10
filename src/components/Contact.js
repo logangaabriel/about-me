@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaYoutube, FaEnvelope, FaFileAlt } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaYoutube, FaEnvelope, FaFileAlt, FaMedium } from 'react-icons/fa';
 
 function SocialIcons() {
   return (
@@ -15,8 +15,11 @@ function SocialIcons() {
       <a href="mailto:contatologangabriel@gmail.com">
         <FaEnvelope size={30} />
       </a>
-      <a href="/caminho-para-o-seu-arquivo" target="_blank" rel="noopener noreferrer">
+      <a href="https://drive.google.com/file/d/1JV-vaLGHevt_4hE-wuJAQS5DNPWzNT27/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
         <FaFileAlt size={30} />
+      </a>
+      <a href="https://medium.com/@gabriellogan.0804" target="_blank" rel="noopener noreferrer">
+        <FaMedium size={30} />
       </a>
     </div>
   );
